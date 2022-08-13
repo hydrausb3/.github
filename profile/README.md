@@ -1,4 +1,4 @@
-HydraUSB3 Repositories
+HydraUSB3 main repository
 ========
 
 Welcome to HydraUSB3 project main repository
