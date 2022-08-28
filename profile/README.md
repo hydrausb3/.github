@@ -11,6 +11,8 @@ You can Buy HydraUSB3 online: http://hydrabus.com/buy-online
 
 Wiki for HydraUSB3 test firmware / examples: https://github.com/hydrausb3/hydrausb3_fw/wiki
 
+Join Official HydraUSB3 Discord Server: https://discord.gg/6DCVURV5c2
+
 ### HydraUSB3 repositories
 
 #### Hardware
