@@ -24,8 +24,8 @@ Wiki for HydraUSB3 test firmware / examples: https://github.com/hydrausb3/hydrau
   - [wch-ch56x-bsp](https://github.com/hydrausb3/wch-ch56x-bsp) repository contains open source code for WCH CH565/CH569 BSP with libraries(mainly drivers) mainly used for HydraUSB3 v1 Hardware.
   
 #### Host tools
-- https://github.com/hydrausb3/wch-isp
-  - [wch-isp](https://github.com/hydrausb3/wch-isp) is a open source small utility(Windows/Linux) to program WCH CH56x micro-controllers over USB (using WCH569 ISP bootloader).
+- https://github.com/hydrausb3/wch-ch56x-isp
+  - [wch-ch56x-isp](https://github.com/hydrausb3/wch-ch56x-isp) is a open source small utility(Windows/Linux) to program WCH CH56x micro-controllers over USB (using WCH569 ISP bootloader).
 - https://github.com/hydrausb3/hydrausb3_host
   - [hydrausb3_host](https://github.com/hydrausb3/hydrausb3_host) repository contains open source host tools (for Linux & Windows)
   - The aim is to use host tools with [hydrausb3_fw](https://github.com/hydrausb3/hydrausb3_fw) USB Examples (mainly related to USB2 or USB3 examples)
