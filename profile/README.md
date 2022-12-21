@@ -18,13 +18,19 @@ Join Official HydraUSB3 Discord Server: https://discord.gg/6DCVURV5c2
 #### Hardware
 - https://github.com/hydrausb3/hydrausb3_hw
   - [hydrausb3_hw](https://github.com/hydrausb3/hydrausb3_hw) repository contains details about HydraUSB3 V1 devkit
-  
+
+#### RISC-V open source toolchain
+- https://github.com/hydrausb3/riscv-none-elf-gcc-xpack
+  - Open source RISC-V toolchain for WCH CH56x (thanks to David Carne / davidcarne on GitHub) 
+    - Based on xPack GNU RISC-V Embedded GCC v12.2.0-1 with support of WCH RISCV CH56x... "WCH-Interrupt-fast"
+  - See Pre-built toolchain for Linux/Windows on https://github.com/hydrausb3/riscv-none-elf-gcc-xpack/releases/tag/12.2.0-1
+
 #### Firmware
 - https://github.com/hydrausb3/hydrausb3_fw 
   - [hydrausb3_fw](https://github.com/hydrausb3/hydrausb3_fw) repository contains open source test firmware / examples for HydraUSB3 v1 devkit using WCH CH569 MCU
 - https://github.com/hydrausb3/wch-ch56x-bsp
   - [wch-ch56x-bsp](https://github.com/hydrausb3/wch-ch56x-bsp) repository contains open source code for WCH CH565/CH569 BSP with libraries(mainly drivers) mainly used for HydraUSB3 v1 Hardware.
-  
+
 #### Host tools
 - https://github.com/hydrausb3/wch-ch56x-isp
   - [wch-ch56x-isp](https://github.com/hydrausb3/wch-ch56x-isp) is a open source small utility(Windows/Linux) to program WCH CH56x micro-controllers over USB (using WCH56x ISP bootloader).
