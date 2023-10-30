@@ -13,6 +13,8 @@ Wiki for HydraUSB3 test firmware / examples: https://github.com/hydrausb3/hydrau
 
 Join Official HydraUSB3 Discord Server: https://discord.gg/6DCVURV5c2
 
+For HydraDancer dedicated organisation: https://github.com/HydraDancer
+
 ### HydraUSB3 repositories
 
 #### Hardware
