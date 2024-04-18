@@ -31,7 +31,12 @@ For HydraDancer dedicated organisation: https://github.com/HydraDancer
 - https://github.com/hydrausb3/hydrausb3_fw 
   - [hydrausb3_fw](https://github.com/hydrausb3/hydrausb3_fw) repository contains open source test firmware / examples for HydraUSB3 v1 devkit using WCH CH569 MCU
 - https://github.com/hydrausb3/wch-ch56x-bsp
-  - [wch-ch56x-bsp](https://github.com/hydrausb3/wch-ch56x-bsp) repository contains open source code for WCH CH565/CH569 BSP with libraries(mainly drivers) mainly used for HydraUSB3 v1 Hardware.
+  - [wch-ch56x-bsp](https://github.com/hydrausb3/wch-ch56x-bsp) repository contains open source code for WCH CH565/CH569 BSP with basic libraries(mainly drivers) mainly used for HydraUSB3 v1 Hardware.
+- https://github.com/hydrausb3/wch-ch56x-lib
+  - [wch-ch56x-lib](https://github.com/hydrausb3/wch-ch56x-lib) repository contains open source library which provides USB3, USB2, HSPI and SerDes drivers that have been tested using the benchmark/integrity tests in tests/.
+    - It is based on wch-ch56x-bsp but its goal is to provide a higher level library mainly used today by [HydraDancer/hydradancer_fw](https://github.com/HydraDancer/hydradancer_fw).
+    - As [HydraDancer](https://github.com/HydraDancer) was using several peripherals at a time (USB3/HSPI, USB2/HSPI), an interrupt queue was implemented to avoid missing interrupts for use with HSPIDeviceScheduled along with a static memory pool.
+    - While the tests in this repository are simple enough to do the processing inside the interrupt handlers, Hydradancer was missing interrupts and deferring interrupts to user mode was required.
 
 #### Host tools
 - https://github.com/hydrausb3/wch-ch56x-isp
