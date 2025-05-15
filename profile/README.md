@@ -3,7 +3,7 @@ HydraUSB3 main repository
 
 Welcome to HydraUSB3 project main repository
 
-![HydraUSB3 V1 board](HydraUSB3_V1_board.jpg)
+![HydraUSB3 V1 board](../HydraUSB3_V1_board.jpg)
 
 Official detailed specification about HydraUSB3 v1 devkit is available online: https://hydrabus.com/hydrausb3-v1-0-specifications
 
